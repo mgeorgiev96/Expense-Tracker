@@ -1,0 +1,20 @@
+{
+  "name": "ExpenseTracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "sass scss/style.scss css/style.css --watch",
+    "start": "babel script.js -d lib"
+  },
+  "keywords": [],
+  "author": "Martin Georgiev",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "moment": "^2.24.0"
+  }
+}
